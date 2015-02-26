@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="1">
+<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+ </listeners>
+
+
+
+<test name="Test name 1">
+<classes>
+<class name="TestNGOnePackage.ClassOne"></class>
+<class name="TestNGOnePackage.ClassTwo"></class>
+</classes>
+</test>
+
+<test name="Test name 2">
+<classes>
+<class name="TestNGTwoPackage.TestOne"></class>
+<class name="TestNGTwoPackage.TestTwo"></class>
+</classes>
+</test>
+
+</suite>

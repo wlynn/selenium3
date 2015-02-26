@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test name 2"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.003">
+  <properties />
+  
+  
+            <testcase name="Test4" time="0.001" classname="TestNGTwoPackage.TestTwo" />
+                <testcase name="Test2" time="0.000" classname="TestNGTwoPackage.TestTwo" />
+                <testcase name="Test1" time="0.001" classname="TestNGTwoPackage.TestTwo" />
+                <testcase name="Test3" time="0.001" classname="TestNGTwoPackage.TestTwo" />
+      
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <test name="Test name 1(failed)">
+    <classes>
+      <class name="TestNGOnePackage.ClassOne">
+        <methods>
+          <include name="SkipTest"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- TestNGOnePackage.ClassOne -->
+      <class name="TestNGOnePackage.ClassTwo">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- TestNGOnePackage.ClassTwo -->
+      <class name="TestNGTwoPackage.TestTwo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TestNGTwoPackage.TestTwo -->
+      <class name="TestNGTwoPackage.TestOne">
+        <methods>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestNGTwoPackage.TestOne -->
+    </classes>
+  </test> <!-- Test name 1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
